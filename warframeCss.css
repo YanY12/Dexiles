@@ -58,7 +58,7 @@
 
     /*О КЛАНЕ*/
     .clan {
-        height: 630px;
+        height: 680px;
     }
     .clan h1{
         margin: -1px 0 0 137;
@@ -90,7 +90,7 @@
 
     /*ФОТОКАРТОЧКИ*/
     .photo {
-        height: 706px;
+        height: 620px;
     }
     .photo h1 {
         margin: 50px 0 0 80px;
