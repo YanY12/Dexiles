@@ -9,10 +9,10 @@
         color: white;
         height: 1086px;
     }
-    .img1, .img2,.img3, .scale {
+    .img1, .img2,.img3, .scale,.imgmember1 {
         transition: 1s; /* Время эффекта */
     }
-    .img1:hover, .img2:hover,.img3:hover,.scale:hover {
+    .img1:hover, .img2:hover,.img3:hover,.scale:hover,.imgmember1:hover {
         transform: scale(1.2); /* Увеличиваем масштаб */
     }
 
@@ -32,7 +32,6 @@
         font-size: 1.1em;
         margin: -30px 0 0 700px;
     }
-
     .panelnav h1 {
         font-size: 3em;
         color: white;
@@ -52,14 +51,22 @@
     }
     .panelnav li {
         display: inline-block;
-        padding: 77px 0 0 10px; 
+        padding: 77px 0 0 20px; 
     }
     .panelnav li a {
         color: white;
         text-decoration: none;
     }
     .panelnav li:first-child {
-        margin-left: 100px;
+        margin-left: 80px;
+    }
+    .gain-center{
+        transition: 1s; /* Время эффекта */
+        text-align: center; 
+        font-size: 1.05em;
+    }
+    .gain-center:hover {
+        transform: scale(1.2); /* Увеличиваем масштаб */
     }
 
 
@@ -120,10 +127,10 @@
         color: black;
     }
     .img1 {
-        margin: 100px 0 0 170px;
+        margin: 50px 0 0 170px;
     }
     .news1 {
-        margin: 115px 666px;
+        margin: 85px 666px;
         width: 435px;
     }
     .img2 {
@@ -135,10 +142,10 @@
         width: 435px;
     }
     .img3 {
-        margin: 371px 0 0 170px;
+        margin: 327px 0 0 170px;
     }
     .news3 {
-        margin: 412px 658px;
+        margin: 375px 658px;
         width: 435px;
     }
 
@@ -163,6 +170,9 @@
     }
     .member h2:first-letter {
         color: black;
+    }
+    .imgmember1 {
+        border-radius: 20%;
     }
 
     /* ДНО САЙТА. */
