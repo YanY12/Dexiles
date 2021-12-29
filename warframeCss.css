@@ -6,7 +6,7 @@
         background-color: #161616;
     }
     header {
-        background-color: #0c0c15;
+        background-color: #161616;
         color: white;
         height: 1086px;
     }
@@ -76,15 +76,16 @@
     .clan img {
         border-radius: 50px 50px 50px 50px;
         border: 2px solid #feac0f;
-        margin: 70px 101px 0 191px;
+        margin: 70px 80px 0 212px;
     }
     .clan li {
         display: inline-block;
         padding: 0 0 0 137px;
         width: 211px;
+        text-align: center;
     }
     .clan li:first-child {
-        margin-left: -26px;
+        margin-left: -45px;
     }
 
 
@@ -123,7 +124,7 @@
     }
     .news2 {
         z-index: 2;
-        margin: -320px 201px;
+        margin: -300px 201px;
         width: 435px;
     }
     .img3 {
@@ -160,7 +161,9 @@
     /* ДНО САЙТА. */
     footer {
         clear: both;
-        height: 4vh;
+        height: 30px;
+        width: 1183px;
+        margin: 0 0 0 102px;
         padding: 18px 0 0 15px;
         background-color: #242425;
         color: white;
