@@ -41,6 +41,7 @@
     }
     .panelnav img {
         margin: 177px 0 0 102px;
+        border-radius: 50px 50px 0 0;
     }
     .panelnav li {
         display: inline-block;
