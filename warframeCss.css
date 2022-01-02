@@ -9,11 +9,9 @@
         color: white;
         height: 1086px;
     }
-    .img1, .img2,.img3, .scale,.imgmember1 {
-        transition: 1s;
-    }
-    .img1:hover, .img2:hover,.img3:hover,.scale:hover,.imgmember1:hover {
-        transform: scale(1.2);
+    header p {
+        font-size: 1.1em;
+        margin: -30px 0 0 700px;
     }
 
 
@@ -27,15 +25,6 @@
     }
     h3 {
         font-size: 0.9em;
-    }
-    header p {
-        font-size: 1.1em;
-        margin: -30px 0 0 700px;
-    }
-    .panelnav h1 {
-        font-size: 3em;
-        color: white;
-        margin: -598px 0 0 146px;
     }
 
 
@@ -60,6 +49,14 @@
     .panelnav li:first-child {
         margin-left: 80px;
     }
+    .panelnav h1 {
+        font-size: 3em;
+        color: white;
+        margin: -598px 0 0 146px;
+    }
+
+
+    /*Анимация текста nav*/
     .gain-center{
         transition: 1s;
         text-align: center; 
@@ -118,7 +115,7 @@
 
     /*НОВОСТИ*/
     .news {
-        height: 1250px;
+        height: 1500px;
     }
     .news h1 {
         margin: 50px 0 0 80px;
@@ -147,6 +144,23 @@
     .news3 {
         margin: 375px 658px;
         width: 435px;
+    }
+    .img4 {
+        margin: -279px 0 0 630px;
+    }
+    .news4 {
+        z-index: 2;
+        margin: -265px 201px;
+        width: 435px;
+    }
+
+
+    /*Увеличение изображений*/
+    .img1, .img2, .img3, .img4,.scale, .imgmember1 {
+        transition: 1s;
+    }
+    .img1:hover, .img2:hover, .img3:hover, .img4:hover,.scale:hover, .imgmember1:hover {
+        transform: scale(1.2);
     }
 
 
@@ -202,11 +216,9 @@
         color: white;
         height: 1086px;
     }
-    .img1, .img2,.img3, .scale,.imgmember1 {
-        transition: 1s;
-    }
-    .img1:hover, .img2:hover,.img3:hover,.scale:hover,.imgmember1:hover {
-        transform: scale(1.2);
+    header p {
+        font-size: 1.1em;
+        margin: -30px 0 0 700px;
     }
 
 
@@ -220,15 +232,6 @@
     }
     h3 {
         font-size: 0.9em;
-    }
-    header p {
-        font-size: 1.1em;
-        margin: -30px 0 0 700px;
-    }
-    .panelnav h1 {
-        font-size: 3em;
-        color: white;
-        margin: -598px 0 0 146px;
     }
 
 
@@ -253,6 +256,14 @@
     .panelnav li:first-child {
         margin-left: 80px;
     }
+    .panelnav h1 {
+        font-size: 3em;
+        color: white;
+        margin: -598px 0 0 146px;
+    }
+
+
+    /*Анимация текста nav*/
     .gain-center{
         transition: 1s;
         text-align: center; 
@@ -311,7 +322,7 @@
 
     /*НОВОСТИ*/
     .news {
-        height: 1250px;
+        height: 1650px;
     }
     .news h1 {
         margin: 50px 0 0 80px;
@@ -340,6 +351,22 @@
     .news3 {
         margin: 375px 658px;
         width: 435px;
+    }
+    .img4 {
+        margin: -309px 0 0 630px;
+    }
+    .news4 {
+        z-index: 2;
+        margin: -309px 201px;
+        width: 435px;
+    }
+
+    /*Увеличение изображений*/
+    .img1, .img2, .img3, .scale, .imgmember1 {
+        transition: 1s;
+    }
+    .img1:hover, .img2:hover, .img3:hover, .scale:hover, .imgmember1:hover {
+        transform: scale(1.2);
     }
 
 
