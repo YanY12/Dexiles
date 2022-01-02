@@ -1,0 +1,410 @@
+@media (min-width: 1025px) {
+    body {
+        margin: 0 auto;
+        width: 1400px;
+        font-family: 'Roboto Slab', serif;
+        background-color: #161616;
+    }
+    header {
+        color: white;
+        height: 1086px;
+    }
+    header p {
+        font-size: 1.1em;
+        margin: -30px 0 0 700px;
+    }
+
+
+    /*ТЕКСТ*/
+    header h2 {
+        font-size: 10em;
+        margin: -750px 0 0 760px;
+    }
+    h2:first-letter,h1:first-letter,h3:first-letter{
+        color: #ffc600;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+
+
+    /*КОНТЕНТ*/
+    #layout {
+        width: 1198px;
+        margin-left: 102px;
+        background-color: white;
+    }
+    .panelnav img {
+        margin: 177px 0 0 102px;
+        border-radius: 50px 50px 0 0;
+    }
+    .panelnav li {
+        display: inline-block;
+        padding: 77px 0 0 20px; 
+    }
+    .panelnav li a {
+        color: white;
+        text-decoration: none;
+    }
+    .panelnav li:first-child {
+        margin-left: 80px;
+    }
+    .panelnav h1 {
+        font-size: 3em;
+        color: white;
+        margin: -598px 0 0 146px;
+    }
+
+
+    /*Анимация текста nav*/
+    .gain-center{
+        transition: 1s;
+        text-align: center; 
+        font-size: 1.05em;
+    }
+    .gain-center:hover {
+        transform: scale(1.2);
+    }
+
+
+    /*О КЛАНЕ*/
+    .clan {
+        height: 680px;
+    }
+    .clan h1{
+        margin: -1px 0 0 137;
+        padding: 106px 0 0 0;
+        color: #717171;
+    }
+    .clan h1:first-letter {
+        color: #717171;
+    }
+    .clan h2{
+        font-size: 4em;
+        margin: 0 0 0 157px;
+        color: black;
+    }
+    .clan img {
+        border-radius: 50px 50px 50px 50px;
+        border: 2px solid #feac0f;
+        margin: 70px 80px 0 212px;
+    }
+    .clan li {
+        display: inline-block;
+        padding: 0 0 0 137px;
+        width: 211px;
+        text-align: center;
+    }
+    .clan li:first-child {
+        margin-left: -45px;
+    }
+
+
+    /*ФОТОКАРТОЧКИ*/
+    .photo {
+        height: 620px;
+    }
+    .photo h1 {
+        margin: 50px 0 0 80px;
+    }
+    .photo li {
+        display: inline-block;
+        padding: 36px 0 0 15px; 
+    }
+
+
+    /*НОВОСТИ*/
+    .news {
+        height: 1500px;
+    }
+    .news h1 {
+        margin: 50px 0 0 80px;
+    }
+    .news h2:first-letter {
+        color: black;
+    }
+    .img1 {
+        margin: 50px 0 0 170px;
+    }
+    .news1 {
+        margin: 85px 666px;
+        width: 435px;
+    }
+    .img2 {
+        margin: 33px 0 0 630px;
+    }
+    .news2 {
+        z-index: 2;
+        margin: -300px 201px;
+        width: 435px;
+    }
+    .img3 {
+        margin: 327px 0 0 170px;
+    }
+    .news3 {
+        margin: 375px 658px;
+        width: 435px;
+    }
+    .img4 {
+        margin: -279px 0 0 630px;
+    }
+    .news4 {
+        z-index: 2;
+        margin: -265px 201px;
+        width: 435px;
+    }
+
+
+    /*Увеличение изображений*/
+    .img1, .img2, .img3, .img4,.scale, .imgmember1 {
+        transition: 1s;
+    }
+    .img1:hover, .img2:hover, .img3:hover, .img4:hover,.scale:hover, .imgmember1:hover {
+        transform: scale(1.2);
+    }
+
+
+    /*БАНЕР*/
+    .svap {
+        height: 480px;
+    }
+
+
+    /*УЧАСТНИКИ*/
+    .member {
+        height: 588px;
+    }
+    .member h1 {
+        margin: 50px 0 0 80px;
+    }
+    .member li {
+        display: inline-block;
+        margin: 70px 0 0 75px;
+        text-align: center;
+    }
+    .member h2:first-letter {
+        color: black;
+    }
+    .imgmember1 {
+        border-radius: 20%;
+    }
+
+
+    /* ДНО САЙТА. */
+    footer {
+        clear: both;
+        height: 30px;
+        width: 1183px;
+        margin: 0 0 0 102px;
+        padding: 18px 0 0 15px;
+        background-color: #242425;
+        color: white;
+        font-size: 0.8em;
+    }
+}
+
+
+/* Телефон версия. */
+@media (max-width: 1024px) {
+    body {
+        margin: 0 auto;
+        width: 1400px;
+        font-family: 'Roboto Slab', serif;
+        background-color: #161616;
+    }
+    header {
+        color: white;
+        height: 1086px;
+    }
+    header p {
+        font-size: 1.1em;
+        margin: -30px 0 0 700px;
+    }
+
+
+    /*ТЕКСТ*/
+    header h2 {
+        font-size: 10em;
+        margin: -750px 0 0 760px;
+    }
+    h2:first-letter,h1:first-letter,h3:first-letter{
+        color: #ffc600;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+
+
+    /*КОНТЕНТ*/
+    #layout {
+        width: 1198px;
+        margin-left: 102px;
+        background-color: white;
+    }
+    .panelnav img {
+        margin: 177px 0 0 102px;
+        border-radius: 50px 50px 0 0;
+    }
+    .panelnav li {
+        display: inline-block;
+        padding: 77px 0 0 20px; 
+    }
+    .panelnav li a {
+        color: white;
+        text-decoration: none;
+    }
+    .panelnav li:first-child {
+        margin-left: 80px;
+    }
+    .panelnav h1 {
+        font-size: 3em;
+        color: white;
+        margin: -598px 0 0 146px;
+    }
+
+
+    /*Анимация текста nav*/
+    .gain-center{
+        transition: 1s;
+        text-align: center; 
+        font-size: 1.05em;
+    }
+    .gain-center:hover {
+        transform: scale(1.2);
+    }
+
+
+    /*О КЛАНЕ*/
+    .clan {
+        height: 680px;
+    }
+    .clan h1{
+        margin: -1px 0 0 137;
+        padding: 106px 0 0 0;
+        color: #717171;
+    }
+    .clan h1:first-letter {
+        color: #717171;
+    }
+    .clan h2{
+        font-size: 4em;
+        margin: 0 0 0 157px;
+        color: black;
+    }
+    .clan img {
+        border-radius: 50px 50px 50px 50px;
+        border: 2px solid #feac0f;
+        margin: 70px 80px 0 212px;
+    }
+    .clan li {
+        display: inline-block;
+        padding: 0 0 0 137px;
+        width: 211px;
+        text-align: center;
+    }
+    .clan li:first-child {
+        margin-left: -45px;
+    }
+
+
+    /*ФОТОКАРТОЧКИ*/
+    .photo {
+        height: 620px;
+    }
+    .photo h1 {
+        margin: 50px 0 0 80px;
+    }
+    .photo li {
+        display: inline-block;
+        padding: 36px 0 0 15px; 
+    }
+
+
+    .news {
+        height: 1500px;
+    }
+    .news h1 {
+        margin: 50px 0 0 80px;
+    }
+    .news h2:first-letter {
+        color: black;
+    }
+    .img1 {
+        margin: 50px 0 0 170px;
+    }
+    .news1 {
+        margin: 85px 666px;
+        width: 435px;
+    }
+    .img2 {
+        margin: 33px 0 0 630px;
+    }
+    .news2 {
+        z-index: 2;
+        margin: -300px 201px;
+        width: 435px;
+    }
+    .img3 {
+        margin: 327px 0 0 170px;
+    }
+    .news3 {
+        margin: 375px 658px;
+        width: 435px;
+    }
+    .img4 {
+        margin: -279px 0 0 630px;
+    }
+    .news4 {
+        z-index: 2;
+        margin: -265px 201px;
+        width: 435px;
+    }
+
+
+    /*Увеличение изображений*/
+    .img1, .img2, .img3, .img4,.scale, .imgmember1 {
+        transition: 1s;
+    }
+    .img1:hover, .img2:hover, .img3:hover, .img4:hover,.scale:hover, .imgmember1:hover {
+        transform: scale(1.2);
+    }
+
+
+    /*БАНЕР*/
+    .svap {
+        height: 480px;
+    }
+
+
+    /*УЧАСТНИКИ*/
+    .member {
+        height: 588px;
+    }
+    .member h1 {
+        margin: 50px 0 0 80px;
+    }
+    .member li {
+        display: inline-block;
+        margin: 70px 0 0 75px;
+        text-align: center;
+    }
+    .member h2:first-letter {
+        color: black;
+    }
+    .imgmember1 {
+        border-radius: 20%;
+    }
+
+
+    /* ДНО САЙТА. */
+    footer {
+        clear: both;
+        height: 30px;
+        width: 1183px;
+        margin: 0 0 0 102px;
+        padding: 18px 0 0 15px;
+        background-color: #242425;
+        color: white;
+        font-size: 0.8em;
+    }
+}
