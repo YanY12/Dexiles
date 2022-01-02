@@ -237,6 +237,18 @@
     }
 
 
+    /* Ссылка. */
+    a {
+    text-decoration : none;
+    }
+    a:visited {
+    color : black;
+    }
+    a:hover {
+    color: #DDA0DD;
+    }
+
+
     /*ТЕКСТ*/
     header h2 {
         font-size: 10em;
@@ -341,8 +353,11 @@
     .news h1 {
         margin: 50px 0 0 80px;
     }
-    .news h2:first-letter {
+    .news1 h2:first-letter,.news2 h2:first-letter,.news3 h2:first-letter {
         color: black;
+    }
+    .news4 h2:first-letter {
+        color: #DDA0DD;
     }
     .img1 {
         margin: 50px 0 0 170px;
