@@ -17,13 +17,13 @@
 
     /* Ссылка. */
     a {
-    text-decoration : none;
+        text-decoration : none;
     }
     a:visited {
-    color : black;
+        color : black;
     }
     a:hover {
-    color: #DDA0DD;
+        color: #DDA0DD;
     }
 
     /*ТЕКСТ*/
@@ -122,7 +122,7 @@
         display: inline-block;
         padding: 36px 0 0 15px; 
     }
-    .scale {
+    .photo ul li img {
         border-radius: 8px;
     }
 
