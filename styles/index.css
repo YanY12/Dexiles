@@ -14,6 +14,10 @@
         margin: -30px 0 0 700px;
     }
 
+    .scale {
+        width: 350px;
+        height: 200px;
+    }
 
     /* Ссылка. */
     a {
@@ -224,7 +228,10 @@
         margin: -30px 0 0 700px;
     }
 
-
+    .scale {
+        width: 350px;
+        height: 200px;
+    }
     /* Ссылка. */
     a {
     text-decoration : none;
